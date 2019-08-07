@@ -22,7 +22,6 @@
     line-height: $default-line-height;
     color: $white;
     padding: 9px 0 42px 0;
-    letter-spacing: -1.2px;
   }
 
   @include e(btn) {
@@ -34,7 +33,11 @@
     color: $white;
     text-transform: uppercase;
     border-radius: 3px;
-
+    cursor: pointer;
+    &:hover{
+      background: $white;
+      color: $black;
+    }
 
   }
 }

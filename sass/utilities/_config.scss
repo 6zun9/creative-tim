@@ -81,6 +81,7 @@ $palettes: (
 //Font size variables
 $default-font-size: $base__font-size ;
 $small-font-size: $default-font-size - 4;
+$xs-font-size: $small-font-size -2;
 $medium-font-size:$default-font-size * 2; //used for section titles
 $lg-font-size: $default-font-size * 3;
 
@@ -96,10 +97,13 @@ $head2-font-size: $medium-font-size !default;
 $head3-font-size: $default-font-size + 2px !default;
 
 $default-line-height:21px;
+$secondary-menu-line-height:$default-line-height+2;
 $secondary-line-height:14px;
 $head1-line-height: 62px !default;
 $head2-line-height:43px;
 $head3-line-height:$default-line-height + 2px;
+
+
 
 
 

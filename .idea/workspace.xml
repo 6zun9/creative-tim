@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9479fa10-f999-4f64-8628-f4a21b728339" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/_manifest.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/libs/_manifest.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/brands.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/fontawesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/regular.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/solid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/scss/v4-shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/libs/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/modules/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/modules/_module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/modules/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/utilities/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/utilities/_config.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +93,7 @@
       <workItem from="1565083066548" duration="7798000" />
       <workItem from="1565100141950" duration="13430000" />
       <workItem from="1565145356692" duration="2541000" />
-      <workItem from="1565151352461" duration="16725000" />
+      <workItem from="1565151352461" duration="20157000" />
     </task>
     <servers />
   </component>

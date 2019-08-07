@@ -1,15 +1,20 @@
 .nav {
   li {
     float: left;
-  }
 
-  li a {
-    font-size: $small-font-size - 2;
-    text-align: center;
-    color: $white;
-  }
-  li a img {
-    vertical-align: middle;
+    a {
+      font-size: $xs-font-size;
+      text-align: center;
+      color: $white;
+      text-transform: uppercase;
+
+      img {
+        vertical-align: middle;
+      }
+      &:hover{
+        color:$red;
+      }
+    }
   }
 
   @include m(main) {
@@ -17,16 +22,22 @@
     li {
       line-height: $secondary-line-height;
       padding-right: 26px;
+      a i {
+        margin:0 5px;
+      }
     }
   }
   @include m(secondary) {
     padding: 21px 0 26px 0;
     li{
-      line-height: $default-line-height + 2;
+      line-height:$secondary-menu-line-height;
+      a{
+        font-size: $head3-font-size;
+      }
+      &:nth-child(2){
+        margin: 0px 24px 0 24px;
+      }
     }
-    li:nth-child(2) {
-      padding-left: 24px;
-      padding-right: 24px;
-    }
+
   }
 }
