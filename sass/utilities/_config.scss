@@ -1,0 +1,114 @@
+// ==========================================================================
+// Config
+// Define variables, maps and fonts at this partial.
+// ==========================================================================
+
+//Enter your Web Address here for print media
+$domain-name: "www.domain-name.com";
+
+//Text
+$base__font-size: 18px;
+$base__line: 21px;
+
+//Font Stacks
+
+//$font-url--google : abc;
+
+// $typefaces
+// Configuration of webfonts imports.
+// $typefaces - {map}
+// @family - {string}
+// @weight - {integer} or {keyword} i.e. 800, bold
+// @style - {keyword} i.e. normal, italic
+
+//$typefaces: (
+//  'FILENAME': (
+//    family: 'fontname',
+//    weight: 100,
+//    style: normal,
+//  ),
+//);
+
+$font-family--roboto: 'Roboto', sans-serif;
+$font-family--primary : $font-family--roboto;
+
+
+//Colors
+$white : #ffffff;
+$gray : #999999;
+$red :#f44336;
+$black:#000000;
+$purple :#9C27B0;
+
+
+
+
+
+//Message Colors
+$error: lighten($red,5%) !default;
+//$success: $green !default;
+//$edit: $yellow !default;
+
+//Breakpoints
+$sm-device: 576px;
+$md-device: 768px;
+$lg-device: 992px;
+$xl-device: 1200px;
+
+//UI Colors
+//$ui-colors: (
+//  default: $blue,
+//  success: $success,
+//  error: $error,
+//  warning: $edit
+//);
+
+//Color Palette
+$palettes: (
+  gray-shades: (
+    base: $gray,
+    dark:#777777 ,
+    light: #999999
+  ),
+  black-shades: (
+    base: $black,
+    dark: #333333,
+    light: #3C4858,
+  )
+);
+
+
+//Font size variables
+$default-font-size: $base__font-size ;
+$small-font-size: $default-font-size - 4;
+$medium-font-size:$default-font-size * 2; //used for section titles
+$lg-font-size: $default-font-size * 3;
+
+
+$default-font-weight:300;
+$normal-font-weight:400;
+$bold-font-weight:500;
+
+//Heading font size vairables
+
+$head1-font-size: 53px !default;
+$head2-font-size: $medium-font-size !default;
+$head3-font-size: $default-font-size + 2px !default;
+
+$default-line-height:21px;
+$secondary-line-height:14px;
+$head1-line-height: 62px !default;
+$head2-line-height:43px;
+$head3-line-height:$default-line-height + 2px;
+
+
+
+
+//Color Usage
+$header-color: $white;
+$section-title-color:palette(black-shades,light);
+$text-color: $gray;
+$link-color: $purple;
+$footer-menu-color:palette(black-shades,dark);
+//Path to Assets
+$path--rel: "../images";

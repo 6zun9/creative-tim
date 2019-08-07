@@ -1,0 +1,32 @@
+.nav {
+  li {
+    float: left;
+  }
+
+  li a {
+    font-size: $small-font-size - 2;
+    text-align: center;
+    color: $white;
+  }
+  li a img {
+    vertical-align: middle;
+  }
+
+  @include m(main) {
+    padding: 27px 0 25px 0;
+    li {
+      line-height: $secondary-line-height;
+      padding-right: 26px;
+    }
+  }
+  @include m(secondary) {
+    padding: 21px 0 26px 0;
+    li{
+      line-height: $default-line-height + 2;
+    }
+    li:nth-child(2) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+}

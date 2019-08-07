@@ -1,0 +1,168 @@
+//
+//
+//
+//.header {
+//  background: url('../images/banner.png') no-repeat;
+//  background-size: cover;
+//  @include e(content){
+//   padding:174px 12px 74px 0;
+//    h1{
+//      font-family: $font-family--primary;
+//      font-style: normal;
+//      font-weight: 500;
+//      font-size: $head1-font-size;
+//      line-height: $head1-line-height;
+//      color: $white;
+//    }
+//    p{
+//      font-family: $font-family--primary;
+//      font-style: normal;
+//      font-weight: normal;
+//      font-size: $default-font-size;
+//      line-height: $default-line-height;
+//      color:$white;
+//      padding:9px 0 42px 0;
+//      letter-spacing: -1.2px;
+//    }
+//    button {
+//      background:$red;
+//      width: 179px;
+//      height: 54px;
+//      border: 0;
+//      outline: none;
+//      color:$white;
+//      text-transform: uppercase;
+//      border-radius: 3px;
+//
+//    }
+//  }
+//}
+//.navbar{
+//  background: rgba(0, 0, 0, 0.4);
+//  @include e(logo) {
+//    font-family: $font-family--primary;
+//    font-size: $default-font-size;
+//    font-style: normal;
+//    font-weight: 300;
+//    line-height: $default-line-height;
+//    text-align: center;
+//    padding:15px 0 22px 0;
+//    color:$white;
+//    text-transform: capitalize;
+//    @include mq(md){
+//      padding:22px 0 22px 0;
+//    }
+//  }
+//  @include m(left) {
+//    float: left;
+//  }
+//
+//  @include e(menu) {
+//
+//    @include e(button) {
+//      height: 14px;
+//      width: 22px;
+//      background: url('../images/menu.png') no-repeat;
+//      border:0;
+//      margin: 18px 10px 30px 0;
+//      display: block;
+//      @include mq(md){
+//        display:none;
+//      }
+//
+//    }
+//    @include e(nav-container) {
+//      display: none;
+//      @include mq(md){
+//        display:block;
+//      }
+//      ul li {
+//        float:left;
+//      }
+//    }
+//
+//    @include e(primary-nav){
+//      float:left;
+//       li {
+//         padding:27px 30px 25px 0;
+//         line-height: $secondary-line-height;
+//      }
+//      li a{
+//        font-family: $font-family--primary;
+//        font-style: normal;
+//        font-weight: normal;
+//        font-size: $small-font-size - 2;
+//        text-align: center;
+//        color: $white;
+//      }
+//    }
+//    @include e(secondary-nav){
+//      float:right;
+//      li{
+//        padding:21px 0 26px 0;
+//        line-height: $default-line-height + 2;
+//      }
+//      li:nth-child(2){
+//        padding-left:24px;
+//        padding-right: 24px;
+//      }
+//      li a img{
+//        vertical-align: middle;
+//      }
+//    }
+//  }
+//
+//  @include m(right) {
+//    float: right;
+//  }
+//
+//}
+@import 'nav';
+.header{
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100%;
+
+  @include e(logo){
+    padding: 15px 0 25px 0;
+    font-family: $font-family--primary;
+    font-style: normal;
+    font-weight: $default-font-weight;
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+    text-align: center;
+    color: $white;
+    text-transform: capitalize;
+
+
+    @include mq(md){
+      padding: 22px 0 22px 0;
+    }
+  }
+
+  @include e(menu-btn){
+    width: 22px;
+    height: 14px;
+    background: url('../images/menu.png') no-repeat;
+    margin: 18px 10px 30px 0;
+    border: 0;
+    outline: none;
+
+    @include mq(md){
+      display: none;
+    }
+  }
+  @include e(nav-container){
+    display: none;
+
+    @include m(open) {
+      display: block;
+    }
+
+    @include mq(md){
+      display: block;
+    }
+
+  }
+
+}

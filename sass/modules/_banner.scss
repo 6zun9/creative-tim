@@ -1,0 +1,40 @@
+.banner {
+  background: url('../images/banner.png') no-repeat;
+  background-size: cover;
+  @include e(content-wrapper) {
+    padding: 174px 12px 74px 0;
+  }
+
+  @include e(heading) {
+    font-family: $font-family--primary;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $head1-font-size;
+    line-height: $head1-line-height;
+    color: $white;
+  }
+
+  @include e(details) {
+    font-family: $font-family--primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+    color: $white;
+    padding: 9px 0 42px 0;
+    letter-spacing: -1.2px;
+  }
+
+  @include e(btn) {
+    background: $red;
+    width: 179px;
+    height: 54px;
+    border: 0;
+    outline: none;
+    color: $white;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+
+  }
+}
