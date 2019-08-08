@@ -80,9 +80,9 @@ $palettes: (
 
 //Font size variables
 $default-font-size: $base__font-size ;
-$small-font-size: $default-font-size - 4;
-$xs-font-size: $small-font-size -2;
-$medium-font-size:$default-font-size * 2; //used for section titles
+$small-font-size: $default-font-size - 4px;
+$xs-font-size: $small-font-size - 2px;
+$medium-font-size: $default-font-size * 2; //used for section titles
 $lg-font-size: $default-font-size * 3;
 
 

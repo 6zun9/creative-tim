@@ -1,43 +1,93 @@
 .nav {
+
+  margin: 30px 50px;
+
   li {
-    float: left;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
 
+    
     a {
-      font-size: $xs-font-size;
-      text-align: center;
       color: $white;
-      text-transform: uppercase;
+      font-size: $default-font-size;
+      display: block;
+      cursor: pointer;
 
-      img {
-        vertical-align: middle;
-      }
       &:hover{
         color:$red;
       }
     }
-  }
 
-  @include m(main) {
-    padding: 27px 0 25px 0;
-    li {
-      line-height: $secondary-line-height;
-      padding-right: 26px;
-      a i {
-        margin:0 5px;
-      }
-    }
+
   }
   @include m(secondary) {
-    padding: 21px 0 26px 0;
-    li{
-      line-height:$secondary-menu-line-height;
-      a{
-        font-size: $head3-font-size;
-      }
-      &:nth-child(2){
-        margin: 0px 24px 0 24px;
+    li {
+      display: inline-block;
+      margin:0 30px;
+    }
+  }
+
+
+  @include mq(sm) {
+
+    display: inline-block;
+
+    li {
+      float: left;
+
+      a {
+        font-size: $xs-font-size;
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+        display: inline-block;
+
+        img {
+          vertical-align: middle;
+        }
+
+        &:hover {
+          color: $red;
+        }
       }
     }
 
+    @include m(main) {
+      padding: 27px 0 25px 0;
+      @include mq(lg) {
+        padding-top: 43px;
+      }
+      li {
+        line-height: $secondary-line-height;
+        padding-right: 26px;
+
+        @include mq(lg) {
+          padding-right: 30px;
+        }
+
+        a i {
+          margin: 0 5px;
+        }
+      }
+    }
+    @include m(secondary) {
+      padding: 21px 0 26px 0;
+      @include mq(lg) {
+        padding-top: 37px;
+      }
+      li {
+        line-height: $secondary-menu-line-height;
+
+        a {
+          font-size: $head3-font-size;
+        }
+
+        &:nth-child(2) {
+          margin: 0px 24px 0 24px;
+        }
+      }
+
+    }
   }
 }

@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <!--build:css css/style.css-->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="sass/utilities/_grid.scss">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css">
     <!--endbuild-->
@@ -18,13 +17,13 @@
     <div class="container">
         <div class="header__logo left">Creative Tim</div>
         <div class="header__nav-wrapper right">
-            <button class="btn header__menu-btn"></button>
-            <div class="header__nav-container ">
-                <ul class="nav nav--main left">
+            <button class="btn header__menu-btn" id="burger-icon"></button>
+            <div class="header__nav-container " id="nav-container">
+                <ul class="nav nav--main">
                     <li><a href="#">Components</a></li>
                     <li><a href="#"><i class="fas fa-cloud-download-alt"></i>Downloads</a></li>
                 </ul>
-                <ul class="nav nav--secondary right">
+                <ul class="nav nav--secondary">
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -44,5 +43,6 @@
         </div>
     </div>
 </section>
+<script src="./js/script.js"></script>
 </body>
 </html>

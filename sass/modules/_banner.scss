@@ -1,8 +1,14 @@
 .banner {
   background: url('../images/banner.png') no-repeat;
   background-size: cover;
+
   @include e(content-wrapper) {
     padding: 174px 12px 74px 0;
+
+    @include mq(lg){
+      padding:207px 0 215px 0;
+      width: 549px;
+    }
   }
 
   @include e(heading) {
@@ -22,6 +28,10 @@
     line-height: $default-line-height;
     color: $white;
     padding: 9px 0 42px 0;
+
+    @include mq(lg){
+      padding:11px 0 61px 0;
+    }
   }
 
   @include e(btn) {

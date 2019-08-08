@@ -1,9 +1,14 @@
-.header{
+.header {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
   width: 100%;
+  z-index:9999;
 
-  @include e(logo){
+  @include mq(lg) {
+    background: transparent;
+  }
+
+  @include e(logo) {
     padding: 15px 0 25px 0;
     font-family: $font-family--primary;
     font-style: normal;
@@ -14,35 +19,54 @@
     color: $white;
     text-transform: capitalize;
 
-
-    @include mq(md){
+    @include mq(sm) {
       padding: 22px 0 22px 0;
+    }
+
+    @include mq(lg) {
+      padding-top: 39px;
     }
   }
 
-  @include e(menu-btn){
+  @include e(menu-btn) {
     width: 22px;
     height: 14px;
     background: url('../images/menu.png') no-repeat;
     margin: 18px 10px 30px 0;
     border: 0;
     outline: none;
+    cursor: pointer;
 
-    @include mq(md){
+
+
+    @include mq(sm) {
       display: none;
     }
+
+
   }
-  @include e(nav-container){
-    display: none;
+  @include e(nav-container) {
+   display: none;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left:0;
+    height: auto;
+    background: rgba(0,0,0,.95);
+    transition: all 0.5s ease-in;
 
-    @include m(open) {
+
+    @include m(open){
       display: block;
     }
 
-    @include mq(md){
+    @include mq(sm){
       display: block;
+      position: static;
+      width: auto;
+      height: auto;
+      background: transparent;
     }
-
   }
 
 }
