@@ -723,7 +723,8 @@ img {
     margin: 0 30px; }
   @media (min-width: 576px) {
     .nav {
-      display: inline-block; }
+      display: inline-block;
+      margin: 0; }
       .nav li {
         float: left; }
         .nav li a {
