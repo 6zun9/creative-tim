@@ -2,25 +2,25 @@
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
   width: 100%;
-  z-index:9999;
+  z-index: 9;
   padding: 15px 0 22px 0;
 
-  .container{
-    padding-right:25px;
-    @include mq(sm){
-      padding:0;
+  .container {
+    padding-right: 25px;
+    @include mq(sm) {
+      padding: 0;
     }
-    @include mq(lg){
-      padding: 0 130px 0 118px;
+    @include mq(lg) {
+
     }
   }
 
-  @include mq(sm){
-    padding:21px 0 22px 0;
+  @include mq(sm) {
+    padding: 21px 0 22px 0;
   }
 
   @include mq(lg) {
-    padding-top:37px;
+    padding-top: 37px;
     background: transparent;
   }
 
@@ -36,12 +36,12 @@
     text-transform: capitalize;
 
     @include mq(sm) {
-    padding:1px 0  0 0;
+      padding: 1px 0 0 0;
 
     }
 
     @include mq(lg) {
-    padding-top: 2px;
+      padding-top: 2px;
     }
   }
 
@@ -62,21 +62,21 @@
 
   }
   @include e(nav-container) {
-   display: none;
+    display: none;
     position: fixed;
     top: 60px;
     right: 0;
-    left:0;
+    left: 0;
     height: auto;
-    background: rgba(0,0,0,.95);
+    background: rgba(0, 0, 0, .95);
     transition: all 0.5s ease-in;
 
 
-    @include m(open){
+    @include m(open) {
       display: block;
     }
 
-    @include mq(sm){
+    @include mq(sm) {
       display: block;
       position: static;
       width: auto;

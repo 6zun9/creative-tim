@@ -36,8 +36,12 @@ $font-family--primary : $font-family--roboto;
 //Colors
 $white : #ffffff;
 $gray : #999999;
+$gray-dark: #777777;
+$gray-moderate: #CCCCCC;
 $red :#f44336;
 $black:#000000;
+$black-dark: #333333;
+$black-light: #3C4858;
 $purple :#9C27B0;
 
 
@@ -68,9 +72,10 @@ $palettes: (
   gray-shades: (
     base: $gray,
     dark:#777777 ,
-    light: #999999
+    light: #999999,
+    moderate: #CCCCCC
   ),
-  black-shades: (
+  black-shades: (#777777
     base: $black,
     dark: #333333,
     light: #3C4858,
@@ -110,9 +115,9 @@ $head3-line-height:$default-line-height + 2px;
 
 //Color Usage
 $header-color: $white;
-$section-title-color:palette(black-shades,light);
-$text-color: $gray;
+$section-title-color: $black-light;
+$text-color:$gray;
 $link-color: $purple;
-$footer-menu-color:palette(black-shades,dark);
-//Path to Assets
+$footer-menu-color:$black-dark;
+$body-background: $gray-moderate;
 $path--rel: "../images";

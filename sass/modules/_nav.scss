@@ -14,7 +14,9 @@
       text-transform: uppercase;
 
       i {
+        font-size: $head3-font-size;
         margin-right: 5px;
+        line-height: 0;
       }
 
       &:hover {

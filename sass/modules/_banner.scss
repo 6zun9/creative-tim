@@ -1,13 +1,13 @@
 .banner {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner.png') no-repeat, #C4C4C4;
 
-  .container{
+  .container {
     @include mq(sm){
       padding:0;
     }
   }
   @include e(content-wrapper) {
-    padding: 174px 12px 74px 0;
+    padding: 174px 0px 74px 0;
   }
 
   @include e(heading) {
@@ -17,15 +17,13 @@
     font-size: $head1-font-size;
     line-height: $head1-line-height;
     color: $white;
-    padding: 0 36px 0 2px;
+    max-width: 345px / 395px * 100%;
 
     @include mq(sm){
-      padding-right:72px;
-      width: 648px;
+      max-width: 648px / 720px * 100%;
     }
-    @include mq(lg){
-      padding-left: 120px;
-      padding-right:0;
+    @include mq(md){
+
     }
   }
 
@@ -37,16 +35,13 @@
     line-height: $default-line-height;
     color: $white;
     padding: 9px 0 42px 0;
+    max-width: 383px / 395px * 100%;
 
     @include mq(sm){
       padding:8px  4px 42px 0;
-      width: 716px;
+
     }
 
-    @include mq(lg){
-      padding-left: 117px;
-      padding-right: 0;
-    }
   }
 
   @include e(btn) {
@@ -66,7 +61,7 @@
       color: $black;
     }
     @include mq(lg){
-      margin-left: 119px;
+
     }
   }
 }
