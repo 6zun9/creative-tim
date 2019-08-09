@@ -1,13 +1,18 @@
 .banner {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner.png') no-repeat, #C4C4C4;
+  @include banner-background('../images/banner-mobile.png');
 
-  .container {
-    @include mq(sm){
-      padding:0;
-    }
+  @include mq(sm) {
+    @include banner-background('../images/banner-tab.png');
+  }
+  @include mq(md){
+    @include banner-background('../images/banner.png');
   }
   @include e(content-wrapper) {
     padding: 174px 0px 74px 0;
+
+    @include mq(lg){
+      padding: 207px 0 233px 0;
+    }
   }
 
   @include e(heading) {
@@ -19,11 +24,16 @@
     color: $white;
     max-width: 345px / 395px * 100%;
 
-    @include mq(sm){
-      max-width: 648px / 720px * 100%;
+    @include mq(sm) {
+      max-width: 648px / 738px * 100%;
     }
-    @include mq(md){
 
+    @include mq(md){
+      max-width: 84%;
+    }
+
+    @include mq(lg) {
+      max-width: 530px / 1098px * 100%;
     }
   }
 
@@ -38,8 +48,16 @@
     max-width: 383px / 395px * 100%;
 
     @include mq(sm){
-      padding:8px  4px 42px 0;
+      padding:8px  0 42px 0;
+      max-width: 716px / 738px * 100%;
+    }
 
+    @include mq(md){
+      max-width: 74%;
+    }
+
+    @include mq(lg) {
+      max-width: 549px / 1098px * 100%;
     }
 
   }
@@ -60,8 +78,6 @@
       background: $white;
       color: $black;
     }
-    @include mq(lg){
 
-    }
   }
 }

@@ -193,4 +193,11 @@
     @warn "#{$el} is not a valid pseudo-element";
   }
 }
+
+
+@mixin banner-background($url){
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($url), $gray-moderate;
+  width: 100%;
+  background-size: cover;
+}
  
