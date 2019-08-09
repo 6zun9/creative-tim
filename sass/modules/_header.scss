@@ -3,13 +3,29 @@
   position: fixed;
   width: 100%;
   z-index:9999;
+  padding: 15px 0 22px 0;
+
+  .container{
+    padding-right:25px;
+    @include mq(sm){
+      padding:0;
+    }
+    @include mq(lg){
+      padding: 0 130px 0 118px;
+    }
+  }
+
+  @include mq(sm){
+    padding:21px 0 22px 0;
+  }
 
   @include mq(lg) {
+    padding-top:37px;
     background: transparent;
   }
 
   @include e(logo) {
-    padding: 15px 0 25px 0;
+    padding-bottom: 3px;
     font-family: $font-family--primary;
     font-style: normal;
     font-weight: $default-font-weight;
@@ -20,24 +36,24 @@
     text-transform: capitalize;
 
     @include mq(sm) {
-      padding: 22px 0 22px 0;
+    padding:1px 0  0 0;
+
     }
 
     @include mq(lg) {
-      padding-top: 39px;
+    padding-top: 2px;
     }
   }
 
   @include e(menu-btn) {
+    padding: 3px 0 8px 0;
     width: 22px;
     height: 14px;
     background: url('../images/menu.png') no-repeat;
-    margin: 18px 10px 30px 0;
     border: 0;
     outline: none;
     cursor: pointer;
-
-
+    vertical-align: middle;
 
     @include mq(sm) {
       display: none;
@@ -66,6 +82,7 @@
       width: auto;
       height: auto;
       background: transparent;
+      padding-right: 12px;
     }
   }
 
