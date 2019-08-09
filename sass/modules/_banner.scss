@@ -25,15 +25,13 @@
     max-width: 345px / 395px * 100%;
 
     @include mq(sm) {
-      max-width: 648px / 738px * 100%;
+      max-width: 648px / 720px * 100%;
     }
 
-    @include mq(md){
-      max-width: 84%;
-    }
+
 
     @include mq(lg) {
-      max-width: 530px / 1098px * 100%;
+      max-width: 530px / 1138px * 100%;
     }
   }
 
@@ -49,15 +47,13 @@
 
     @include mq(sm){
       padding:8px  0 42px 0;
-      max-width: 716px / 738px * 100%;
+      max-width: 716px / 720px * 100%;
     }
 
-    @include mq(md){
-      max-width: 74%;
-    }
+
 
     @include mq(lg) {
-      max-width: 549px / 1098px * 100%;
+      max-width: 549px / 1138px * 100%;
     }
 
   }

@@ -1,10 +1,12 @@
 .container {
-  max-width: 1128 / 16 * 1em;
-  @include mq(sm) {
-    margin: 0 9px;
+  max-width: 1158 / 16 * 1em;
+
+  @include  mq(sm) {
+    padding:0 24px;
   }
+
   @include mq(xl) {
-    margin: 0 135px;
+   padding: 0 10px;
   }
 }
 
