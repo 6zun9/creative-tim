@@ -3,6 +3,9 @@
 
   @include mq(sm) {
     @include banner-background('../images/banner-tab.png');
+    .container {
+      padding: 0 24px;
+    }
   }
   @include mq(md){
     @include banner-background('../images/banner.png');

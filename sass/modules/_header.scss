@@ -1,9 +1,9 @@
 .container {
   max-width: 1158 / 16 * 1em;
 
-  @include  mq(sm) {
-    padding:0 24px;
-  }
+  //@include  mq(sm) {
+  //  padding:0 24px;
+  //}
 
   @include mq(xl) {
    padding: 0 10px;
@@ -20,6 +20,10 @@
 
   @include mq(sm) {
     padding: 21px 0 22px 0;
+
+    .container {
+      padding: 0 24px;
+    }
   }
 
   @include mq(lg) {

@@ -8,3 +8,40 @@
 //   .input__material--right {@extend %input; float: right;}
 // }
 // ==========================================================================
+
+
+//this is for the section titles  like products,teams etc
+%title {
+  font-family: $font-family--primary;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $head2-font-size;
+  line-height:$head2-line-height;
+  color: $section-title-color;
+  text-align: center;
+}
+
+// this is for the details text of each sections
+%details {
+  font-family: $font-family--primary;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $default-font-size;
+  line-height: $default-line-height;
+  text-align: center;
+  color: $text-color;
+
+
+}
+
+%list-details {
+
+  font-family: $font-family--primary;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $small-font-size;
+  line-height: $secondary-line-height;
+  text-align: center;
+
+  color:$text-color;
+}
