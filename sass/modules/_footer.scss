@@ -1,0 +1,50 @@
+.footer {
+  padding-bottom: 18px;
+  @include mq(lg){
+    margin: 0 135px;
+  }
+
+  @include e(nav){
+    width: 100%;
+    @include mq(lg){
+      width: auto;
+    }
+    ul{
+      display: flex;
+      padding: 0 15px;
+      li{
+        margin-right: 33px;
+        &:last-child{
+          margin-right: 0;
+        }
+        a{
+          font-family: $font-family--primary;
+          font-style: normal;
+          font-weight: 500;
+          font-size: $xs-font-size;
+          line-height: 14px;
+          text-align: center;
+          color: $footer-menu-color;
+          text-transform: uppercase;
+          &:hover{
+            color: $purple;
+          }
+        }
+      }
+    }
+  }
+
+  @include e(copyright){
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 11px;
+    color: $black;
+    padding: 31px 0 18px 0;
+    @include mq(lg){
+      width: auto;
+      padding: 0  ;
+    }
+
+  }
+}

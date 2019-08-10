@@ -1,0 +1,50 @@
+.form {
+  padding-bottom: 79px;
+  @include e(input) {
+    input, textarea {
+      outline-width: 0;
+      margin-bottom: 52px;
+      display: block;
+      border: none;
+      border-bottom: 1px solid #d2d2d2;
+      padding: 7px 0;
+      font-size: 14px;
+      line-height: 16px;
+      width: 100%;
+
+      &:focus, &:active {
+        border-bottom-color: $purple;
+      }
+    }
+
+    @include mq(lg) {
+      width: 49%;
+      display: inline-block;
+      @include m(textarea){
+
+          width: 100%;
+          display: block;
+
+      }
+
+    }
+
+
+  }
+
+  @include e(btn) {
+    background-color: $purple;
+    box-shadow: 0 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    padding: 18px 33px;
+    color: $white;
+    font-size: $xs-font-size;
+    display: block;
+    margin: 0 auto;
+    &:hover{
+      background:$black-dark;
+    }
+  }
+}

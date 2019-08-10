@@ -652,7 +652,7 @@ img {
   max-width: 100%;
   vertical-align: top; }
 
-.main .product-wrapper__title {
+.main .product-wrapper__title, .main .team-wrapper__title, .contact-wrapper__title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -661,7 +661,7 @@ img {
   color: #3C4858;
   text-align: center; }
 
-.main .product-wrapper__details {
+.main .product-wrapper__details, .contact-wrapper__details {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -670,7 +670,16 @@ img {
   text-align: center;
   color: #999999; }
 
-.product__feature-details {
+.product__feature-title, .member__name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #3C4858; }
+
+.product__feature-details, .member__details {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -681,9 +690,6 @@ img {
 
 .container {
   max-width: 72.375em; }
-  @media (min-width: 1200px) {
-    .container {
-      padding: 0 10px; } }
 
 .header {
   background: rgba(0, 0, 0, 0.4);
@@ -693,9 +699,7 @@ img {
   padding: 15px 0 22px 0; }
   @media (min-width: 576px) {
     .header {
-      padding: 21px 0 22px 0; }
-      .header .container {
-        padding: 0 24px; } }
+      padding: 21px 0 22px 0; } }
   @media (min-width: 992px) {
     .header {
       padding-top: 37px;
@@ -837,6 +841,9 @@ img {
       background-size: cover; }
       .banner .container {
         padding: 0 24px; } }
+    @media (min-width: 576px) and (min-width: 1200px) {
+      .banner .container {
+        padding: 0 10px; } }
   @media (min-width: 768px) {
     .banner {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/banner.png"), #CCCCCC;
@@ -899,7 +906,7 @@ img {
   margin: -54px 10px 33px 10px; }
   @media (min-width: 992px) {
     .main {
-      margin: -60px 30px  33px 30px; } }
+      margin: -60px 30px 33px 30px; } }
   .main .product-wrapper {
     padding-top: 94px; }
     .main .product-wrapper__details {
@@ -914,7 +921,7 @@ img {
           margin: 0 auto; } }
 
 .product {
-  margin-bottom: 208px; }
+  margin-bottom: 100px; }
   @media (min-width: 992px) {
     .product {
       display: flex; } }
@@ -929,13 +936,6 @@ img {
       display: block;
       margin: 0 auto; }
   .product__feature-title {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #3C4858;
     margin: 21px 0 18px 0; }
   .product__feature-details {
     width: 99.69605%; }
@@ -946,5 +946,138 @@ img {
     @media (min-width: 992px) {
       .product__feature-details {
         width: 97.32938%; } }
+
+.member {
+  margin-top: 86px; }
+  @media (min-width: 992px) {
+    .member {
+      display: flex; } }
+  .member li {
+    margin-bottom: 26px; }
+    @media (min-width: 992px) {
+      .member li {
+        margin-right: 38px; }
+        .member li:last-child {
+          margin-right: 0; } }
+    .member li img {
+      display: block;
+      margin: 0 auto; }
+  .member__name {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 32px 0 7px 0; }
+  .member__profession {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777; }
+  .member__details {
+    padding-top: 34px;
+    width: 99.2%; }
+    .member__details a {
+      color: #9C27B0; }
+  .member__social {
+    text-align: center;
+    padding: 40px 0 9px 0;
+    font-size: 18px; }
+    .member__social li {
+      display: inline-block;
+      margin-right: 29px; }
+      .member__social li a {
+        color: #999999; }
+        .member__social li a:hover {
+          color: #9C27B0; }
+    .member__social:last-child {
+      margin-right: 0; }
+
+.form {
+  padding-bottom: 79px; }
+  .form__input input, .form__input textarea {
+    outline-width: 0;
+    margin-bottom: 52px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 7px 0;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%; }
+    .form__input input:focus, .form__input input:active, .form__input textarea:focus, .form__input textarea:active {
+      border-bottom-color: #9C27B0; }
+  @media (min-width: 992px) {
+    .form__input {
+      width: 49%;
+      display: inline-block; }
+      .form__input--textarea {
+        width: 100%;
+        display: block; } }
+  .form__btn {
+    background-color: #9C27B0;
+    box-shadow: 0 2px 2px rgba(244, 67, 54, 0.14);
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    padding: 18px 33px;
+    color: #ffffff;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto; }
+    .form__btn:hover {
+      background: #333333; }
+
+.contact-wrapper {
+  padding-top: 150px; }
+  @media (min-width: 992px) {
+    .contact-wrapper .container {
+      padding: 0; } }
+  @media (min-width: 992px) {
+    .contact-wrapper {
+      width: 54.56522%;
+      margin: 0 auto; } }
+  .contact-wrapper__details {
+    margin: 37px 0 47px 0; }
+
+.footer {
+  padding-bottom: 18px; }
+  @media (min-width: 992px) {
+    .footer {
+      margin: 0 135px; } }
+  .footer__nav {
+    width: 100%; }
+    @media (min-width: 992px) {
+      .footer__nav {
+        width: auto; } }
+    .footer__nav ul {
+      display: flex;
+      padding: 0 15px; }
+      .footer__nav ul li {
+        margin-right: 33px; }
+        .footer__nav ul li:last-child {
+          margin-right: 0; }
+        .footer__nav ul li a {
+          font-family: "Roboto", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          color: #333333;
+          text-transform: uppercase; }
+          .footer__nav ul li a:hover {
+            color: #9C27B0; }
+  .footer__copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 11px;
+    color: #000000;
+    padding: 31px 0 18px 0; }
+    @media (min-width: 992px) {
+      .footer__copyright {
+        width: auto;
+        padding: 0; } }
 
 /*# sourceMappingURL=style.css.map */

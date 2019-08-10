@@ -22,7 +22,7 @@
 }
 
 // this is for the details text of each sections
-%details {
+%section-details {
   font-family: $font-family--primary;
   font-style: normal;
   font-weight: 300;
@@ -34,14 +34,24 @@
 
 }
 
-%list-details {
+%name {
+  font-family: $font-family--primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $head3-font-size;
+  line-height: $head3-line-height;
+  text-align: center;
+  color: $section-title-color;
+}
 
+
+%single-list-details {
   font-family: $font-family--primary;
   font-style: normal;
   font-weight: 300;
   font-size: $small-font-size;
   line-height: $secondary-line-height;
   text-align: center;
-
   color:$text-color;
 }
+

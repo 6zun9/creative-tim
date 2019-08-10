@@ -1,0 +1,22 @@
+.contact-wrapper{
+  padding-top: 150px;
+
+  .container{
+    @include mq(lg){
+      padding: 0;
+    }
+
+  }
+  @include mq(lg){
+    width: 753px / 1380px * 100%;
+    margin: 0 auto;
+  }
+  @include e(title){
+    @extend  %title;
+  }
+
+  @include e(details){
+    margin: 37px 0 47px 0;
+    @extend %section-details;
+  }
+}

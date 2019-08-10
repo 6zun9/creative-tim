@@ -5,6 +5,9 @@
     @include banner-background('../images/banner-tab.png');
     .container {
       padding: 0 24px;
+      @include mq(xl) {
+        padding: 0 10px;
+      }
     }
   }
   @include mq(md){

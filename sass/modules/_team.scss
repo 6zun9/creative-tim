@@ -1,0 +1,77 @@
+.member{
+  margin-top:86px;
+
+  @include mq(lg) {
+    display: flex;
+  }
+
+  li{
+    margin-bottom: 26px;
+
+    @include mq(lg){
+      margin-right: 38px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+
+  }
+
+  @include e(name) {
+    @extend %name;
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+    padding: 32px 0 7px 0;
+
+  }
+
+  @include e(profession){
+    text-align: center;
+    font-family: $font-family--primary;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $xs-font-size;
+    line-height: 16px;
+    color: $gray-dark;
+  }
+
+  @include  e(details){
+    @extend %single-list-details;
+    padding-top: 34px;
+
+    width: 372px / 375px * 100%;
+
+    a{
+      color: $purple;
+    }
+  }
+
+  @include e(social){
+    text-align: center;
+    padding: 40px 0 9px 0;
+    font-size: 18px;
+
+    li {
+      display: inline-block;
+      margin-right: 29px;
+      a{
+        color: $gray;
+        &:hover{
+          color: $purple;
+        }
+      }
+
+
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+}

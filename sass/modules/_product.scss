@@ -1,5 +1,5 @@
 .product {
-  margin-bottom: 208px;
+  margin-bottom: 100px;
   @include mq(lg) {
     display: flex;
   }
@@ -23,20 +23,14 @@
   }
 
   @include e(feature-title) {
-    font-family: $font-family--primary;
-    font-style: normal;
-    font-weight: 500;
-    font-size: $head3-font-size;
-    line-height: $head3-line-height;
-    text-align: center;
-    color: $section-title-color;
+    @extend %name;
     margin: 21px 0 18px 0;
 
 
   }
 
   @include e(feature-details) {
-    @extend %list-details;
+    @extend %single-list-details;
     width: 328px / 329px * 100%;
 
     @include mq(sm){
