@@ -697,6 +697,11 @@ img {
   width: 100%;
   z-index: 9;
   padding: 15px 0 22px 0; }
+  .header--scroll {
+    background: #ffffff !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+    .header--scroll a {
+      color: #000000 !important; }
   @media (min-width: 576px) {
     .header {
       padding: 21px 0 22px 0; } }
@@ -704,7 +709,7 @@ img {
     .header {
       padding-top: 37px;
       background: transparent; } }
-  .header__logo {
+  .header__logo a {
     padding-bottom: 3px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -714,12 +719,12 @@ img {
     text-align: center;
     color: #ffffff;
     text-transform: capitalize; }
-    @media (min-width: 576px) {
-      .header__logo {
-        padding: 1px 0 0 0; } }
-    @media (min-width: 992px) {
-      .header__logo {
-        padding-top: 2px; } }
+  @media (min-width: 576px) {
+    .header__logo {
+      padding: 1px 0 0 0; } }
+  @media (min-width: 992px) {
+    .header__logo {
+      padding-top: 2px; } }
   .header__menu-btn {
     padding: 3px 0 8px 0;
     width: 22px;

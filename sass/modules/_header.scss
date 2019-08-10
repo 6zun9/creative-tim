@@ -9,6 +9,13 @@
   z-index: 9;
   padding: 15px 0 22px 0;
 
+  @include m(scroll) {
+    background: $white !important;
+    box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
+    a{
+      color: $black !important;
+    }
+  }
 
   @include mq(sm) {
     padding: 21px 0 22px 0;
@@ -21,15 +28,18 @@
   }
 
   @include e(logo) {
-    padding-bottom: 3px;
-    font-family: $font-family--primary;
-    font-style: normal;
-    font-weight: $default-font-weight;
-    font-size: $default-font-size;
-    line-height: $default-line-height;
-    text-align: center;
-    color: $white;
-    text-transform: capitalize;
+    a{
+      padding-bottom: 3px;
+      font-family: $font-family--primary;
+      font-style: normal;
+      font-weight: $default-font-weight;
+      font-size: $default-font-size;
+      line-height: $default-line-height;
+      text-align: center;
+      color: $white;
+      text-transform: capitalize;
+    }
+
 
     @include mq(sm) {
       padding: 1px 0 0 0;
