@@ -11,9 +11,13 @@
 
   @include m(scroll) {
     background: $white !important;
-    box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
-    a{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    a {
       color: $black !important;
+
+      &:hover {
+        color: $purple;
+      }
     }
   }
 
@@ -28,7 +32,7 @@
   }
 
   @include e(logo) {
-    a{
+    a {
       padding-bottom: 3px;
       font-family: $font-family--primary;
       font-style: normal;

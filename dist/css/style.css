@@ -702,6 +702,8 @@ img {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
     .header--scroll a {
       color: #000000 !important; }
+      .header--scroll a:hover {
+        color: #9C27B0; }
   @media (min-width: 576px) {
     .header {
       padding: 21px 0 22px 0; } }
