@@ -894,7 +894,7 @@ img {
 }
 
 .header--scroll a:hover {
-    color: #9C27B0;
+    color: #9C27B0!important;
 }
 
 @media (min-width: 576px) {
