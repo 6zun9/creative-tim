@@ -28,16 +28,16 @@
     font-size: $head1-font-size;
     line-height: $head1-line-height;
     color: $white;
-    max-width: 345px / 395px * 100%;
+    max-width: 345px ;
 
     @include mq(sm) {
-      max-width: 648px / 720px * 100%;
+      max-width: 648px ;
     }
 
 
 
     @include mq(lg) {
-      max-width: 530px / 1138px * 100%;
+      max-width: 530px ;
     }
   }
 
@@ -49,11 +49,11 @@
     line-height: $default-line-height;
     color: $white;
     padding: 9px 0 42px 0;
-    max-width: 383px / 395px * 100%;
+    max-width: 383px ;
 
     @include mq(sm){
       padding:8px  0 42px 0;
-      max-width: 716px / 720px * 100%;
+      max-width: 716px ;
     }
 
 

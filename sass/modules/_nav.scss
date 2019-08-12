@@ -21,7 +21,7 @@
       }
 
       &:hover {
-        color: $red;
+        color: #FF8A83;
       }
     }
 
@@ -36,6 +36,7 @@
       &:last-child {
         margin-right: 0;
       }
+
       @include mq(md) {
         margin: 0;
       }
@@ -60,9 +61,6 @@
           vertical-align: middle;
         }
 
-        &:hover {
-          color: $red;
-        }
       }
     }
 
@@ -77,6 +75,12 @@
       li {
         line-height: $secondary-line-height;
         padding-right: 26px;
+
+        a{
+          i{
+            font-size: 16px;
+          }
+        }
 
         @include mq(lg) {
           padding-right: 30px;

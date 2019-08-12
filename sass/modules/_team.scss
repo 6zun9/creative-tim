@@ -45,7 +45,7 @@
     @extend %single-list-details;
     padding-top: 34px;
 
-    width: 372px / 375px * 100%;
+    max-width: 372px / 375px * 100%;
 
     a{
       color: $purple;

@@ -31,15 +31,15 @@
 
   @include e(feature-details) {
     @extend %single-list-details;
-    width: 328px / 329px * 100%;
+    max-width: 328px / 329px * 100%;
 
     @include mq(sm){
-      width: 328px / 672px * 100%;
+      max-width: 328px / 672px * 100%;
       margin: 0 auto;
     }
 
     @include mq(lg){
-      width: 328px / 337px * 100%;
+      max-width: 328px / 337px * 100%;
     }
 
   }

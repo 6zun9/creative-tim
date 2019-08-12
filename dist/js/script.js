@@ -30,7 +30,7 @@ window.onscroll = function() {changeHeaderColor()}; //adds  background white on 
 
 function changeHeaderColor() {
     if(window.innerWidth > 767){
-        if (document.documentElement.scrollTop > 350) {
+        if (document.documentElement.scrollTop > header.style.height) {
             header.classList.add('header--scroll');
         }
         else{
