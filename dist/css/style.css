@@ -699,12 +699,27 @@ img {
   padding: 15px 0 22px 0; }
   .header--scroll {
     background: #ffffff !important;
+<<<<<<< HEAD
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
     .header--scroll a {
       color: #000000 !important; }
       .header--scroll a:hover {
         color: #9C27B0 !important; }
   @media (min-width: 576px) {
+=======
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.header--scroll a {
+    color: #000000 !important;
+}
+
+.header--scroll a:hover {
+    color: #9C27B0!important;
+}
+
+@media (min-width: 576px) {
+>>>>>>> 0e5c82b65e364f69065779038e83919a44f10102
     .header {
       padding: 21px 0 22px 0; } }
   @media (min-width: 992px) {
