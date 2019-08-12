@@ -954,7 +954,7 @@ img {
 .header__nav-container {
     display: none;
     position: fixed;
-    top: 60px;
+    top: 56px;
     right: 0;
     left: 0;
     height: auto;
