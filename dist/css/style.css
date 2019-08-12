@@ -879,11 +879,11 @@ img {
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
-    padding: 9px 0 42px 0;
+    margin: 9px 0 42px 0;
     max-width: 383px; }
     @media (min-width: 576px) {
       .banner__details {
-        padding: 8px  0 42px 0;
+        margin: 8px  0 42px 0;
         max-width: 716px; } }
     @media (min-width: 992px) {
       .banner__details {
