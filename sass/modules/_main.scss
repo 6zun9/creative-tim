@@ -13,21 +13,15 @@
     @include e(title) {
       @extend %title;
     }
-
     @include e(details) {
-      padding: 38px 0 162px 0;
-
+      margin: 38px auto 162px auto;
       @extend %section-details;
-      width: 368px /375px * 100%;
+      max-width: 368px;
 
-      @include mq(sm) {
-        width: 723px / 718px * 100%;
+      @include mq(md) {
+        max-width: 723px;
       }
 
-      @include mq(lg) {
-        width: 723px / 1138px * 100%;
-        margin: 0 auto;
-      }
     }
 
   }

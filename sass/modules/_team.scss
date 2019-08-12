@@ -43,9 +43,26 @@
 
   @include  e(details){
     @extend %single-list-details;
-    padding-top: 34px;
-
-    max-width: 372px / 375px * 100%;
+    margin-top: 34px;
+    max-width: 372px;
+    margin:{
+      left:auto;
+      right:auto;
+    }
+    @include mq(md){
+      max-width: 713px;
+      margin:{
+        left:auto;
+        right:auto;
+      }
+    }
+    @include mq(md){
+      max-width: 352px;
+      margin:{
+        left:auto;
+        right:auto;
+      }
+    }
 
     a{
       color: $purple;

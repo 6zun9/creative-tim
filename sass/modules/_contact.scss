@@ -1,6 +1,5 @@
 .contact-wrapper{
-  padding-top: 150px;
-
+  margin-top: 150px;
   .container{
     @include mq(lg){
       padding: 0;
@@ -18,5 +17,16 @@
   @include e(details){
     margin: 37px 0 47px 0;
     @extend %section-details;
+    margin: {
+      left:auto;
+      right: auto;
+    };
+    max-width: 378px;
+    @include mq(md){
+      max-width: 709px;
+    }
+    @include mq(lg){
+      max-width: 753px;
+    }
   }
 }
