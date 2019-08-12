@@ -887,7 +887,7 @@ img {
         max-width: 716px; } }
     @media (min-width: 992px) {
       .banner__details {
-        max-width: 48.24253%; } }
+        max-width: 549px; } }
   .banner__btn {
     background: #f44336;
     width: 179px;
@@ -942,14 +942,11 @@ img {
   .product__feature-title {
     margin: 21px 0 18px 0; }
   .product__feature-details {
-    max-width: 99.69605%; }
+    max-width: 328px; }
     @media (min-width: 576px) {
       .product__feature-details {
-        max-width: 48.80952%;
+        max-width: 328px;
         margin: 0 auto; } }
-    @media (min-width: 992px) {
-      .product__feature-details {
-        max-width: 97.32938%; } }
 
 .member {
   margin-top: 86px; }

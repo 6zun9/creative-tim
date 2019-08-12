@@ -31,16 +31,13 @@
 
   @include e(feature-details) {
     @extend %single-list-details;
-    max-width: 328px / 329px * 100%;
+    max-width: 328px;
 
     @include mq(sm){
-      max-width: 328px / 672px * 100%;
+      max-width: 328px ;
       margin: 0 auto;
     }
 
-    @include mq(lg){
-      max-width: 328px / 337px * 100%;
-    }
 
   }
 
