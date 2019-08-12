@@ -11,6 +11,7 @@
       font-size: 14px;
       line-height: 16px;
       width: 100%;
+      resize: none;
 
       &:focus, &:active {
         border-bottom-color: $purple;
@@ -20,7 +21,7 @@
     @include mq(lg) {
       width: 49%;
       display: inline-block;
-      @include m(textarea){
+      @include m(textarea) {
 
           width: 100%;
           display: block;
