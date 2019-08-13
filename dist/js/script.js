@@ -16,11 +16,11 @@ function windowResize(){
         el.classList.remove('header__nav-container--open');
     }
     //removes header background if browser resizes to mobile device
-    if(window.innerWidth < 768){
-        if(header.classList.contains('header--scroll')){
-            header.classList.remove('header--scroll');
-        }
-    }
+    // if(window.innerWidth < 768){
+    //     if(header.classList.contains('header--scroll')){
+    //         header.classList.remove('header--scroll');
+    //     }
+    // }
 
 
 
@@ -29,13 +29,10 @@ function windowResize(){
 window.onscroll = function() {changeHeaderColor()}; //adds  background white on scroll to fixed header
 
 function changeHeaderColor() {
-    if(window.innerWidth > 767){
         if (document.documentElement.scrollTop > header.style.height) {
             header.classList.add('header--scroll');
         }
-        else{
+        else {
             header.classList.remove('header--scroll');
         }
-    }
-
 }

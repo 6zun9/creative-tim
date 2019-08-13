@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9479fa10-f999-4f64-8628-f4a21b728339" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_example.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/modules/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +74,7 @@
       <workItem from="1565530990961" duration="87000" />
       <workItem from="1565587044008" duration="9188000" />
       <workItem from="1565615140053" duration="4518000" />
-      <workItem from="1565672374998" duration="1335000" />
+      <workItem from="1565672374998" duration="1612000" />
     </task>
     <servers />
   </component>
